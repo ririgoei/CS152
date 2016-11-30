@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-43">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-103"/>
+  <item nodeId="node-43">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">Your name is Lana, a twelve-year-old girl. You just moved to a new house with your Father and just getting settled in your room. You are trying to unpack your belongings, and getting comfortable in this strange new place. Your Father just left to buy some groceries. The ancient house creaks and sighs at night. It is filled with dust and ancient, bizarre objects. You wonder what secrets this house holds.&#x000A;&#x000A;The Mirror Queen&#x000A;An Interactive Fiction by Riadiani Marcelita&#x000A;Release 1 / Serial number 161128 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Lana's Bedroom&#x000A;Your room is a small square of a space, modest enough for a twelve-year-old. The walls are bare and painted a shade of pale yellow. The hardwood floor is recently scrubbed clean.&#x000A;&#x000A;The bed is neatly made.&#x000A;&#x000A;There are a lamplight, a folded piece of newspaper, and an old scrapbook on the desk.&#x000A;&#x000A;What an odd, ancient-looking thing! It is a full-sized mirror. Is there something glittering over the surface of the mirror?&#x000A;&#x000A;You can also see a newspaper, a suitcase and a scrapbook here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-44"/>
+      <child nodeId="node-49"/>
+      <child nodeId="node-56"/>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">You see nothing special about the bed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">x suitcase</command>
+    <result xml:space="preserve">You have not unpacked. You suddenly feel a cold draft and decides to put on a jacket. Where is this cold draft coming from? There are no windows on your room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">x mirror</command>
+    <result xml:space="preserve">You come closer to the mirror and see that it is glimmering with a strange, twinkling light. Your reflection seems to grow hazy before your eyes, and it soon disappears. An image of what seems like a large hallway appears before you. A cold draft blows your hair back and sends your body shivering. Curious, you place your hand on the mirror. Your hand goes through the mirror! You realize that the mirror could be a gate to another dimension -- to the mysterious hallway. Your curiosity aroused, you decide to let yourself slip into this new, unexplored realm.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Hallway&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">x lamplight</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">x light</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">x newspaper</command>
+    <result xml:space="preserve">You glance at the local newspaper your Father bought earlier. One article catches your eye. A local 9-year-old boy just went missing a couple days ago. His parents swore he was just playing games in his room all day long. This is the 15th missing children's case in the area this year alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">You see nothing special about the bed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">x suitcase</command>
+    <result xml:space="preserve">You have not unpacked. You suddenly feel a cold draft and decides to put on a jacket. Where is this cold draft coming from? There are no windows on your room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">x mirror</command>
+    <result xml:space="preserve">You come closer to the mirror and see that it is glimmering with a strange, twinkling light. Your reflection seems to grow hazy before your eyes, and it soon disappears. An image of what seems like a large hallway appears before you. A cold draft blows your hair back and sends your body shivering. Curious, you place your hand on the mirror. Your hand goes through the mirror! You realize that the mirror could be a gate to another dimension -- to the mysterious hallway. Your curiosity aroused, you decide to let yourself slip into this new, unexplored realm.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">x desk</command>
+    <result xml:space="preserve">You see nothing special about the desk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Hallway&#x000A;You have stepped into a hallway of what appears to be a castle made out of... glass? The smooth, polished floor feels almost slippery under your sneakers. The icy air turns your breath into mist. The translucent walls around you are bare; you could see your own distorted reflection on its crystalline surface. You look up and the ceiling is lost in a cluster of dark gray clouds. You are terrified, but there is no turning back. You see light in front of you. What could it be?&#x000A;&#x000A;A door made of glass with chipped edges and a cracked handle. Wisps of strange light slither around its edges. It must lead to another room in the palace!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-57"/>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Mirror Chamber&#x000A;You enter a room that is even colder than the hallway. You see at least a dozen mirrors similar to the one you just walked through, lined up against the walls. What is going on here?&#x000A;&#x000A;Are your eyes playing tricks on you, or is that a dark shadow looming over the mirror surfaces?&#x000A;&#x000A;Are those glowing crystals?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-58"/>
+      <child nodeId="node-68"/>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">x mirrors</command>
+    <result xml:space="preserve">You come closer to one of the mirrors and almost let out a scream. What you see is not your reflection, but the face of a young boy. His eyes are closed, his face ghastly white, his lips a bruised blue color. He is nothing but skin and bones, and he seems to be hovering over the mirror's surface, his skeletal body unmoving.&#x000A;&#x000A;You realize there are children in all the other mirrors as well. Each of them seem to be her age, and all of them are unconscious.&#x000A;&#x000A;You stare at the boy's face and felt strangely familiar. Where have you seen him before? you wonder, as your hand unknowingly make their way towards the mirror's surface.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">touch mirrors</command>
+    <result xml:space="preserve">You touch the mirror. It feels cool and lucid under your fingers.&#x000A;&#x000A;Suddenly, the boy behind the mirror snapped his eyes open. You let out a scream and take a step back.&#x000A;&#x000A;"Help me!" the boy screams, his chapped lips making him look even more terrifying. "Help me, please! The Queen is coming!"&#x000A;&#x000A;Your first instinct is to run away! Go back to the safety of your room! But... Queen, he said? What Queen? You are itching to prompt the boy further for more information.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-60"/>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">ask the boy about the queen</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">ask the boy</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">ask</command>
+    <result xml:space="preserve">What do you want to ask yourself for?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">ask questions</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">ask question</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">ask mirrors</command>
+    <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">ask boy</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">ask the boy</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">x mirror</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">x mirrors</command>
+    <result xml:space="preserve">You come closer to one of the mirrors and almost let out a scream. What you see is not your reflection, but the face of a young boy. His eyes are closed, his face ghastly white, his lips a bruised blue color. He is nothing but skin and bones, and he seems to be hovering over the mirror's surface, his skeletal body unmoving.&#x000A;&#x000A;You realize there are children in all the other mirrors as well. Each of them seem to be her age, and all of them are unconscious.&#x000A;&#x000A;You stare at the boy's face and felt strangely familiar. Where have you seen him before? you wonder, as your hand unknowingly make their way towards the mirror's surface.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">touch mirrors</command>
+    <result xml:space="preserve">You touch the mirror. It feels cool and lucid under your fingers.&#x000A;&#x000A;Suddenly, the boy behind the mirror snapped his eyes open. You let out a scream and take a step back.&#x000A;&#x000A;"Help me!" the boy screams, his chapped lips making him look even more terrifying. "Help me, please! The Queen is coming!"&#x000A;&#x000A;"Who is this Queen you are talking about?" you ask.&#x000A;&#x000A;"The Mirror Queen," the boy's lips quiver. "She is the owner of this palace. She is an otherwordly creature that lures human children into her palace through her shimmering mirrors. She enchants us to stay here with her, forever. She then entraps us in this mirror and feeds off our life source to stay alive. I am the latest child she's abducted, and she has sucked half my soul away. Please help me! I want to return to my Mommy and Daddy!"&#x000A;&#x000A;You realize where you have seen the boy before -- he is the missing child you just saw in the newspaper.&#x000A;&#x000A;"How do I help you escape?" you ask.&#x000A;&#x000A;"Defeat the Queen," the boy says. "She lives in her chamber at the end of this hall. Take those crystal lights with you, if you haven't had one already. These hold magical powers upon contact with human skin."&#x000A;&#x000A;You promise the boy you will try your best to defeat the Queen and save him. You move forward to go to the Queen's Chamber. You make sure you have a crystal lights to have as your weapon.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Queen's Chamber&#x000A;It is a royal chamber like no other -- the ceiling is so high it is invisible; a crystal chandelier hangs by a silver chain, and it is adorned with more glowing crystals. The glass floor is etched with intricate designs, one best suited for royalty. On a raised platform in the middle of the chamber the Queen is seated on her glass throne.&#x000A;&#x000A;You can see a Queen here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">x queen</command>
+    <result xml:space="preserve">The Queen is, no doubt, the most beautiful creature Lana has ever laid her eyes on. She has a wave of dark curls that fall gracefully down her shoulders. Her eyes are the most brilliant shade of blue, and they seem to sparkle under the glare of the crystal lights. Her tall, lean figure is draped in a silver dress that seems to reflect the colors of the rainbows. It sways around her glass-slippered feet whenever she moves.&#x000A;&#x000A;"Greetings, Lana. I have been waiting for you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">answer queen</command>
+    <result xml:space="preserve">(to yourself)&#x000A;"Who are you and how did you know my name?"&#x000A;&#x000A;The Queen stands and makes her way slowly towards you. "I know what your heart truly desires. I know the person you miss the most."&#x000A;&#x000A;The next second, the Queen's face has transformed, to your surprise, to your Mother's. She is smiling down at you, opening her arms at you. You remember how warm her arms used to be.&#x000A;&#x000A;"Come and stay here with me, darling," she says in her beautiful, sing-song voice you miss terribly. "You will be safe with me. We will never be apart, ever again."&#x000A;&#x000A;You grow even more confused. You need to defeat the Queen and get out of there! But at the same time, your heart aches for your mother's arms. You miss her, more than anything in this world, and your heart longs to be with her once more.&#x000A;&#x000A;"What do you say, sweetheart?" she asks. "Are you going to come with me?"&#x000A;&#x000A;What should you answer? YES? Or NO?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">YES</command>
+    <result xml:space="preserve">You run into your mother's embrace, tears falling down your face.&#x000A;&#x000A;"Sweet child," she coos. "You will be mine forever."&#x000A;&#x000A;Seconds later, a sense of dread fills your heart. Your senses return to you, but it's too late -- your mother has transformed back into the evil Mirror Queen. She grips you, tight, with her claw-like hands, and with her magical powers entraps you in one of her mirrors.&#x000A;&#x000A;"Let me out!" you yell at the top of your lungs.&#x000A;&#x000A;"Don't worry, my sweet Lana," the Queen smiles. "There is plenty of time to spare before dinner time."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Queen's Chamber&#x000A;It is a royal chamber like no other -- the ceiling is so high it is invisible; a crystal chandelier hangs by a silver chain, and it is adorned with more glowing crystals. The glass floor is etched with intricate designs, one best suited for royalty. On a raised platform in the middle of the chamber the Queen is seated on her glass throne.&#x000A;&#x000A;You can see a Queen here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">x queen</command>
+    <result xml:space="preserve">The Queen is, no doubt, the most beautiful creature Lana has ever laid her eyes on. She has a wave of dark curls that fall gracefully down her shoulders. Her eyes are the most brilliant shade of blue, and they seem to sparkle under the glare of the crystal lights. Her tall, lean figure is draped in a silver dress that seems to reflect the colors of the rainbows. It sways around her glass-slippered feet whenever she moves.&#x000A;&#x000A;"Greetings, Lana. I have been waiting for you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-96"/>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">ask</command>
+    <result xml:space="preserve">(yourself for the Queen)&#x000A;You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">ask queen</command>
+    <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">answer</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">answer the queen</command>
+    <result xml:space="preserve">(to yourself)&#x000A;"Who are you and how did you know my name?"&#x000A;&#x000A;The Queen stands and makes her way slowly towards you. "I know what your heart truly desires. I know the person you miss the most."&#x000A;&#x000A;The next second, the Queen's face has transformed, to your surprise, to your Mother's. She is smiling down at you, opening her arms at you. You remember how warm her arms used to be.&#x000A;&#x000A;"Come and stay here with me, darling," she says in her beautiful, sing-song voice you miss terribly. "You will be safe with me. We will never be apart, ever again."&#x000A;&#x000A;You grow even more confused. You need to defeat the Queen and get out of there! But at the same time, your heart aches for your mother's arms. You miss her, more than anything in this world, and your heart longs to be with her once more.&#x000A;&#x000A;"What do you say, sweetheart?" she asks. "Are you going to come with me?"&#x000A;&#x000A;What should you answer? YES? Or NO?&#x000A;&#x000A;&#x000A;&#x000A;    *** Regardless of the outcome, you have been very brave. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">answer queen</command>
+    <result xml:space="preserve">(to yourself)&#x000A;"Who are you and how did you know my name?"&#x000A;&#x000A;The Queen stands and makes her way slowly towards you. "I know what your heart truly desires. I know the person you miss the most."&#x000A;&#x000A;The next second, the Queen's face has transformed, to your surprise, to your Mother's. She is smiling down at you, opening her arms at you. You remember how warm her arms used to be.&#x000A;&#x000A;"Come and stay here with me, darling," she says in her beautiful, sing-song voice you miss terribly. "You will be safe with me. We will never be apart, ever again."&#x000A;&#x000A;You grow even more confused. You need to defeat the Queen and get out of there! But at the same time, your heart aches for your mother's arms. You miss her, more than anything in this world, and your heart longs to be with her once more.&#x000A;&#x000A;"What do you say, sweetheart?" she asks. "Are you going to come with me?"&#x000A;&#x000A;You know you need to say NO.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">"No! This is a trick!" your brain sends off an alarm, and you snap out of the Queen's illusion with a newfound wave of bravado. "How dare you pretend to be my Mother! She is nothing like you!"&#x000A;&#x000A;You thrust the crystal light at the Queen's heart. Imbued with the magical powers harvested from your human skin, the crystal destroyed the Queen's heart. With a deafening, inhumane wail, the Queen shatters into a million tiny pieces.&#x000A;&#x000A;After your initial shock, what just happened finally seeped in. You have defeated the Queen! You won! You hurriedly returns to the boy and finds him out of the mirror. You help him and the rest of the entrapped children out of the mirrors, lead them back safely to the human world, and return them to their parents.&#x000A;&#x000A;&#x000A;&#x000A;    *** You have been very brave. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">The Queen's Chamber&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">say no</command>
+    <result xml:space="preserve">(to yourself)&#x000A;"Who are you and how did you know my name?"&#x000A;&#x000A;The Queen stands and makes her way slowly towards you. "I know what your heart truly desires. I know the person you miss the most."&#x000A;&#x000A;The next second, the Queen's face has transformed, to your surprise, to your Mother's. She is smiling down at you, opening her arms at you. You remember how warm her arms used to be.&#x000A;&#x000A;"Come and stay here with me, darling," she says in her beautiful, sing-song voice you miss terribly. "You will be safe with me. We will never be apart, ever again."&#x000A;&#x000A;You grow even more confused. You need to defeat the Queen and get out of there! But at the same time, your heart aches for your mother's arms. You miss her, more than anything in this world, and your heart longs to be with her once more.&#x000A;&#x000A;"What do you say, sweetheart?" she asks. "Are you going to come with me?"&#x000A;&#x000A;You know you need to say NO.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the chipped door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the chipped door)&#x000A;You see nothing special about the chipped door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Mirror Chamber&#x000A;You enter a room that is even colder than the hallway. You see at least a dozen mirrors similar to the one you just walked through, lined up against the walls. What is going on here?&#x000A;&#x000A;Are your eyes playing tricks on you, or is that a dark shadow looming over the mirrors" surfaces?&#x000A;&#x000A;Are those glowing crystals?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Hallway&#x000A;You have stepped into a hallway of what appears to be a castle made out of... glass? The smooth, polished floor feels almost slippery under your sneakers. The icy air turns your breath into mist. The translucent walls around you are bare; you could see your own distorted reflection on its crystalline surface. You look up and the ceiling is lost in a cluster of dark gray clouds. You are terrified, but there is no turning back. You see light in front of you. What could it be?&#x000A;&#x000A;A door made of glass with chipped edges and a cracked handle. Wisps of strange light slither around its edges. It must lead to another room in the palace!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the chipped door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">x chipped door</command>
+    <result xml:space="preserve">You see nothing special about the chipped door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">To open the door is to move to the next room in the palace. Further on north if you dare!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Mirror Chamber&#x000A;You enter a room that is even colder than the hallway. You see at least a dozen mirrors similar to the one you just walked through, lined up against the walls. What is going on here?&#x000A;&#x000A;Are your eyes playing tricks on you, or is that a dark shadow looming over the mirrors" surfaces?&#x000A;&#x000A;Are those glowing crystals?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">x crystals</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">x crystal</command>
+    <result xml:space="preserve">A cluster of what appears to be glowing crystals huddle around the corners of the chamber and between the mirrors. They are cut into finely shaped pieces, at least as long and big as your arm. You notice how sharp the tips are. A dim, wispy light seems to radiate off the crystals. They provide the only source of lighting in the chamber. You realize they are removable. It might be wise to carry around one of these, you think, as it is truly very dark in here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">take crystal</command>
+    <result xml:space="preserve">You have picked up a crystal light. It is now your source of light in this somber chamber.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">x mirror</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">x mirrors</command>
+    <result xml:space="preserve">You come closer to one of the mirrors and almost let out a scream. What you see is not your reflection, but the face of a young boy. His eyes are closed, his face ghastly white, his lips a bruised blue color. He is nothing but skin and bones, and he seems to be hovering over the mirror's surface, his skeletal body unmoving.&#x000A;&#x000A;You realize there are children in all the other mirrors as well. Each of them seem to be her age, and all of them are unconscious.&#x000A;&#x000A;You stare at the boy's face and felt strangely familiar. Where have you seen him before? you wonder, as your hand unknowingly make their way towards the mirror's surface.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">touch mirrors</command>
+    <result xml:space="preserve">You touch the mirror. It feels cool and lucid under your fingers.&#x000A;&#x000A;Suddenly, the boy behind the mirror snapped his eyes open. You let out a scream and take a step back.&#x000A;&#x000A;"Help me!" the boy screams, his chapped lips making him look even more terrifying. "Help me, please! The Queen is coming!"&#x000A;&#x000A;Your first instinct is to run away! Go back to the safety of your room! But... Queen, he said? What Queen? You are itching to prompt the boy further for more information.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">ask</command>
+    <result xml:space="preserve">What do you want to ask yourself for?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">question</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">ask boy</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">ask question</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
